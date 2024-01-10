@@ -19,6 +19,7 @@
 # This sample shows how to prevent push of commits where the log message starts
 # with "WIP" (work in progress).
 
+echo "Pre-push script iniciado"
 remote="$1"
 url="$2"
 zero=$(git hash-object --stdin </dev/null | tr '[0-9a-f]' '0')
