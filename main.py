@@ -2,7 +2,7 @@ import requests
 from bs4 import BeautifulSoup
 
 def main():
-
+    #teste
     print("Iniciando implementação de WebScraping")
     url = 'https://www.linkedin.com/feed/'
     response = requests.get(url)
